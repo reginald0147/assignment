@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 62.5%;
+    background: #F7FDFC;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: align;
+
+}
+
+.left-part{
+    display: flex;
+    width: 50%;
+    margin-top: -25%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 2%; */
+}
+
+.logo-container{
+    margin-left: -50%;
+}
+
+.logo{
+    height: 70px;
+    width: 70px;
+}
+
+.main-text{
+    font-size: 2rem;
+    margin-left: 15%;
+}
+
+.sub-text{
+    font-size: 0.6rem;
+    margin-left: 15%;
+    font-weight: normal;
+    word-break: break-all;
+}
+
+.right-part{
+    display: block;
+    width: 30%;
+    background: #ffffff;
+    height: 90vh;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 10%;
+    padding: 2rem 5rem;
+    -webkit-box-shadow: -8px 5px 32px 0px rgba(181,181,181,0.54);
+    -moz-box-shadow: -8px 5px 32px 0px rgba(181,181,181,0.54);
+    box-shadow: -8px 5px 32px 0px rgba(181,181,181,0.54);
+}
+
+.right-part label,
+.right-part input{
+    display: block!important;
+}
+
+
+input{
+    outline: none;
+    padding: 10px 20px;
+    background: white;
+    color: black;
+    border: 2px solid #f0f0f0;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+button{
+    padding: 5% 10%;
+    border: 1px solid #fff;
+    color: #fff;
+    margin-top: 1%;
+    width: 100%;
+}
+
+.form-group2 input{
+    width: 100%;
+}
